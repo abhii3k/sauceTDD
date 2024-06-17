@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test_001">
+		<classes>
+			<class name="Testsauce.test">
+				<methods>
+					<include name="login" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 <test  name="Test_002">
+		<classes>
+			<class name="Testsauce.test">
+				<methods>
+					<include name="login" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 <test  name="Test_003">
+		<classes>
+			<class name="Testsauce.test">
+				<methods>
+					<include name="Home" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 <test  name="Test_004">
+		<classes>
+			<class name="Testsauce.test">
+				<methods>	
+					<include name="Cart" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 <test  name="Test_005">
+		<classes>
+			<class name="Testsauce.test">
+				<methods>
+					<include name="form" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 <test  name="Test_006">
+		<classes>
+			<class name="Testsauce.test">
+				<methods>			
+					<include name="Checkout" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 <test  name="Test_007">
+		<classes>
+			<class name="Testsauce.test">
+				<methods>
+					<include name="thanks" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
